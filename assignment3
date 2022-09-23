@@ -49,7 +49,7 @@ SELECT DNO,max(SALARY) from EMPLOYEE group by DNO;
 SELECT DNO,count(*) from EMPLOYEE group by DNO;
 
 -- Q6
-
+SELECT count(*) from (SELECT DNO,count(*) as c from EMPLOYEE group by DNO) as t where c>1;
 
 -- Q7
 ALTER TABLE EMPLOYEE DROP COLUMN SUPRESSN;
