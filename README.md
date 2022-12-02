@@ -1,1 +1,1 @@
-This repo is for SQL assignment of NIT JSR
+# This repo is for SQL Assignment of NIT-JSR
